@@ -13,6 +13,8 @@
 		178176422C7F142B006BB3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178176412C7F142B006BB3BF /* Preview Assets.xcassets */; };
 		178176492C7F147D006BB3BF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 178176482C7F147D006BB3BF /* .gitignore */; };
 		1781764C2C7F208D006BB3BF /* example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781764B2C7F208D006BB3BF /* example.swift */; };
+		1781764E2C7F2A10006BB3BF /* example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781764D2C7F2A10006BB3BF /* example2.swift */; };
+		178176502C7F2CC8006BB3BF /* example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1781764F2C7F2CC7006BB3BF /* example3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		178176412C7F142B006BB3BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		178176482C7F147D006BB3BF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1781764B2C7F208D006BB3BF /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
+		1781764D2C7F2A10006BB3BF /* example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example2.swift; sourceTree = "<group>"; };
+		1781764F2C7F2CC7006BB3BF /* example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				1781764B2C7F208D006BB3BF /* example.swift */,
+				1781764D2C7F2A10006BB3BF /* example2.swift */,
+				1781764F2C7F2CC7006BB3BF /* example3.swift */,
 			);
 			path = examples;
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 				1781764C2C7F208D006BB3BF /* example.swift in Sources */,
 				1781763D2C7F142A006BB3BF /* ContentView.swift in Sources */,
 				1781763B2C7F142A006BB3BF /* ViewsAndModifiersApp.swift in Sources */,
+				178176502C7F2CC8006BB3BF /* example3.swift in Sources */,
+				1781764E2C7F2A10006BB3BF /* example2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

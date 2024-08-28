@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct example3: View {
     let motto1 = Text("Draco dormiens")
     // computed property with view
     var motto2: some View {
         Text("nunquam titillandus")
     }
-    // Swift wont add ViewBuilding itself. 
+    // Swift wont add ViewBuilding itself.
     @ViewBuilder var spells: some View {
         Text("Lumos")
         Text("Obliviate")
