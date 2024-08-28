@@ -8,28 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
-    let motto1 = Text("Draco dormiens")
-    // computed property with view
-    var motto2: some View {
-        Text("nunquam titillandus")
-    }
-    // Swift wont add ViewBuilding itself. 
-    @ViewBuilder var spells: some View {
-        Text("Lumos")
-        Text("Obliviate")
-    }
-    
     var body: some View {
-        VStack {
-            motto1
-                .foregroundStyle(.red)
-            motto2
-                .foregroundStyle(.blue)
-            spells
+        VStack(spacing: 10) {
+            CapsuleText(text: "First")
+            CapsuleText(text: "Second")
         }
-
     }
 }
+
+struct CapsuleText: View {
+    var text: String
+
+    var body: some View {
+        Text(text)
+            .font(.largeTitle)
+            .padding()
+            .foregroundStyle(.white)
+            .background(.blue)
+            .clipShape(.capsule)
+    }
+}
+
 
 #Preview {
     ContentView()
