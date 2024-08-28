@@ -14,6 +14,18 @@ struct ContentView: View {
             useRedText.toggle()
         }
         .foregroundStyle(useRedText ? .red : .blue)
+        // modifier can be directly added to a Vstack
+        VStack {
+            // this modifier overrides the enviroment modifier
+            Text("Gryffindor").font(.largeTitle)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            // this modifier does not override the enviroment modifier
+                .blur(radius: 0)
+            Text("Slytherin")
+        }
+        .font(.title)
+        .blur(radius: 2)
     }
 }
 
